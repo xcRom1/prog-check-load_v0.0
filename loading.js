@@ -99,7 +99,7 @@ const checkLoading = () => {
   // ########################################################
   // LINE CMD : Check si la commande de lancement est correct : 
   // [0] node 
-  // [1] nom du fichier principal.js
+  // [1] nom du programme.js
   // [2] argument 1 : run
 
   // LINE-CMD : Check start
