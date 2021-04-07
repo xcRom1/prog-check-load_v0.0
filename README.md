@@ -8,63 +8,63 @@ Date : 04/07/2021 </br>
 This program allows you to check your folders and files before launching your program.
 
 
-// ####################################################
-// #              ARCHITECTURE CHECKLOADING           #
-// ####################################################
-// #                                                  #
-// #                [1] ERROR DIRECTORY               #
-// #                [2] ERROR FILE                    #
-// #                [3] CHECK LINE CMD                #
-// #                [4] RUN LOADING                   #
-// #                [5] ARGUMENT RUN                  #
-// #                                                  #
-//#####################################################
+// ####################################################</br>
+// #              ARCHITECTURE CHECKLOADING           #</br>
+// ####################################################</br>
+// #                                                  #</br>
+// #                [1] ERROR DIRECTORY               #</br>
+// #                [2] ERROR FILE                    #</br>
+// #                [3] CHECK LINE CMD                #</br>
+// #                [4] RUN LOADING                   #</br>
+// #                [5] ARGUMENT RUN                  #</br>
+// #                                                  #</br>
+//#####################################################</br>
 
-  // #########################################################
-  // #################### ERROR DIRECTORY ####################
-  // #########################################################
-  // E-DIR : Check si le dossier existe :                 
-  // [1] pics 
-  // [2] .... Addionnal 
-
-
-  // ####################################################
-  // #################### ERROR FILE ####################
-  // ####################################################
-  // E-FILE : Check si les fichiers existe et qu'ils ne sont pas des répertoires
-  // [1] e-not-exist.txt
-  // [2] e-note-file.txt
-  // [3] usage-node.txt
-  // [4] use-run-arg.txt
-  // [5] loading-pic.txt
-  // [6] all-check-done.txt
-  // [7].... Addionnal 
+  // #########################################################</br>
+  // #################### ERROR DIRECTORY ####################</br>
+  // #########################################################</br>
+  // E-DIR : Check si le dossier existe : </br>                
+  // [1] pics </br>
+  // [2] .... Addionnal </br>
 
 
-  // ########################################################
-  // #################### CHECK LINE CMD ####################
-  // ########################################################
-  // LINE CMD : Check si la commande de lancement est correct : 
-  // [0] node 
-  // [1] nom du programme.js
-  // [2] argument 1 : run
+  // ####################################################</br>
+  // #################### ERROR FILE ####################</br>
+  // ####################################################</br>
+  // E-FILE : Check si les fichiers existe et qu'ils ne sont pas des répertoires</br>
+  // [1] e-not-exist.txt</br>
+  // [2] e-note-file.txt</br>
+  // [3] usage-node.txt</br>
+  // [4] use-run-arg.txt</br>
+  // [5] loading-pic.txt</br>
+  // [6] all-check-done.txt</br>
+  // [7].... Addionnal </br>
+
+
+  // ########################################################</br>
+  // #################### CHECK LINE CMD ####################</br>
+  // ########################################################</br>
+  // LINE CMD : Check si la commande de lancement est correct : </br>
+  // [0] node </br>
+  // [1] nom du programme.js</br>
+  // [2] argument 1 : run</br>
 
   
-  // #####################################################
-  // #################### RUN LOADING ####################
-  // #####################################################
-  // LOADING : Affichage si tout est OK si l'argument 'RUN' est validé => ALL CHECK DONE !!!
+  // #####################################################</br>
+  // #################### RUN LOADING ####################</br>
+  // #####################################################</br>
+  // LOADING : Affichage si tout est OK si l'argument 'RUN' est validé => ALL CHECK DONE !!!</br>
 
 
-  // #######################################################
-  // #################### ARGUMENT RUN  ####################
-  // #######################################################
-  // ARG-RUN :  Si l'argument 1 n'est pas égale à 'run' alors ne pas démmarer !! 
+  // #######################################################</br>
+  // #################### ARGUMENT RUN  ####################</br>
+  // #######################################################</br>
+  // ARG-RUN :  Si l'argument 1 n'est pas égale à 'run' alors ne pas démmarer !! </br>
 
 
-  // ######################
-  // ####### GO !!! #######
-  // ######################
+  // ######################</br>
+  // ####### GO !!! #######</br>
+  // ######################</br>
 
 ## Install
 
