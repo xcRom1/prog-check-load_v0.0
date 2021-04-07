@@ -115,7 +115,7 @@ const checkLoading = () => {
   // #####################################################
   // LOADING : Affichage si tout est OK si l'argument 'RUN' est validé => ALL CHECK DONE !!!
 
-  // LOADING : Start
+  // LOADING : Start 
   if (process.argv[2] === 'run') {
     console.clear() // Clear affichage
     const loading = fs.readFileSync('./pics-check/loading-pic.txt', 'utf-8') // lit le fichier loading-pic.txt
