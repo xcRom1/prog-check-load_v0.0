@@ -1,0 +1,11 @@
+{
+  "name": "check-loading-prog",
+  "version": "1.0.0",
+  "main": "loading.js",
+  "repository": "git@github.com:Imo999/check-loading-prog.git",
+  "author": "imo999 <rcajina.pro@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
