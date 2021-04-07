@@ -2,9 +2,6 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-// Check console DEV(outils)
-//console.log(chalk.green('\nCHECK by Imo999 : ALL IS GOOD\n')) //check DEV
-
 
 // ####################################################
 // #              ARCHITECTURE CHECKLOADING           #
@@ -32,7 +29,7 @@ const checkLoading = () => {
   // [1]pics
   if (!fs.existsSync('./pics-check')) {
     console.clear() // Clear affichage
-    console.log(chalk.red(`\nError E-DIR[1] : 'pics' doesn't folder exist\n`)) // affichage error
+    console.log(chalk.red(`\nError E-DIR[1] : 'pics' folder doesn't exist\n`)) // affichage error
     process.exit(1) // E-DIR : Exit
   }
   // [2]....Addionnal 
@@ -53,13 +50,13 @@ const checkLoading = () => {
   // [1] e-not-exist.txt
   if (!fs.existsSync('./pics-check/e-not-exist.txt')) {
     console.clear() // Clear affichage
-    console.log(chalk.red(`\nError E-FILE[1] : 'e-not-exist.txt' doesn't file exist\n`)) // affichage error
+    console.log(chalk.red(`\nError E-FILE[1] : 'e-not-exist.txt' file doesn't exist\n`)) // affichage error
     process.exit(1) // E-FILE : Exit
   }
   // [2] e-note-file.txt
   if (!fs.existsSync('./pics-check/e-not-file.txt')) {
     console.clear() // Clear affichage
-    console.log(chalk.red(`\nError E-FILE[2] : 'e-not-file.txt' doesn't file exist\n`)) // affichage error
+    console.log(chalk.red(`\nError E-FILE[2] : 'e-not-file.txt' file doesn't exist\n`)) // affichage error
     process.exit(1) // E-FILE : Exit
   }
   // [3] usage-node.txt
@@ -67,7 +64,7 @@ const checkLoading = () => {
     let enotExist = chalk.red(fs.readFileSync('./pics-check/e-not-exist.txt', 'utf-8')) // lit le fichier e-not-exist.txt
     console.clear() // Clear affichage
     console.log(enotExist) // affichage Error du fichier : e-not-exit.txt
-    console.log(chalk.red(`\nError E-FILE[3] : 'usage-node.txt' doesn't file exist\n`)) // affichage error
+    console.log(chalk.red(`\nError E-FILE[3] : 'usage-node.txt' file doesn't exist\n`)) // affichage error
     process.exit(1) // E-FILE : Exit
   }
   // [4] use-run-arg.txt
@@ -75,7 +72,7 @@ const checkLoading = () => {
     let enotExist = chalk.red(fs.readFileSync('./pics-check/e-not-exist.txt', 'utf-8')) // lit le fichier e-not-exist.txt
     console.clear() // Clear affichage
     console.log(enotExist) // affichage Error du fichier : e-not-exit.txt
-    console.log(chalk.red(`\nError E-FILE[4] : 'use-run-arg.txt' doesn't file exist\n`)) // affichage error
+    console.log(chalk.red(`\nError E-FILE[4] : 'use-run-arg.txt' file doesn't exist\n`)) // affichage error
     process.exit(1) // E-FILE : Exit
   }
   // [5] loading-pic.txt
@@ -83,7 +80,7 @@ const checkLoading = () => {
     let enotExist = chalk.red(fs.readFileSync('./pics-check/e-not-exist.txt', 'utf-8')) // lit le fichier e-not-exist.txt
     console.clear() // Clear affichage
     console.log(enotExist) // affichage Error du fichier : e-not-exit.txt
-    console.log(chalk.red(`\nError E-FILE[5] : 'loading-pic.txt' doesn't file exist\n`)) // affichage error
+    console.log(chalk.red(`\nError E-FILE[5] : 'loading-pic.txt' file doesn't exist\n`)) // affichage error
     process.exit(1) // E-FILE : Exit
   }
   // [6] all-check-done.txt 
@@ -91,7 +88,7 @@ const checkLoading = () => {
     let enotExist = chalk.red(fs.readFileSync('./pics-check/e-not-exist.txt', 'utf-8')) // lit le fichier e-not-exist.txt
     console.clear() // Clear affichage
     console.log(enotExist) // affichage Error du fichier : e-not-exit.txt
-    console.log(chalk.red(`\nError E-FILE[6] : 'all-check-ok.txt' doesn't file exist\n`)) // affichage error
+    console.log(chalk.red(`\nError E-FILE[6] : 'all-check-ok.txt' file doesn't exist\n`)) // affichage error
     process.exit(1) // E-FILE : Exit
   }
 
@@ -126,6 +123,8 @@ const checkLoading = () => {
     console.log(loading.repeat(6000)) // répétition du fichier loading-pic.txt
     console.clear() // Clear affichage
     console.log(chalk.green(allcheckOk)) // Affichage répétition du fichier all-check-ok.txt
+    console.log(chalk.green('\nVersions: \n\t1.0 --- 04/07/2021 = CHECK by Imo999 : ALL IS GOOD')) //Suivit de versionning 
+    console.log(chalk.green('\t2.0 --- xx/xx/xxxx = CHECK by xxxx : Additionnal\n')) // Additionnal 
 
     // =====================================================
     // ===============>                     <===============
@@ -133,10 +132,7 @@ const checkLoading = () => {
     // ===============>                     <===============
     // =====================================================
 
-    console.log(chalk.green('\nVersions: \n\t1.0 --- 04/07/2021 = CHECK by Imo999 : ALL IS GOOD')) //Suivit de versionning 
-    console.log(chalk.green('\t2.0 --- xx/xx/xxxx = CHECK by xxxx : Additionnal\n')) // Additionnal 
-
-    process.exit(1) // LOADING : Exit
+    process.exit(1) // LOADING : Exit à supprimer lors de l'intégration
   }
 
   // #######################################################
