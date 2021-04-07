@@ -1,4 +1,4 @@
-# ![prog-check-load](pics-check/prog-check-load.jpg)
+# ![loading](./pics-check/prog-check-load.jpg)
 # check-loading-prog
 
 Version v1.0
