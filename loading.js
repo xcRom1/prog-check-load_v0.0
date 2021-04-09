@@ -123,8 +123,8 @@ const checkLoading = () => {
     console.log(loading.repeat(6000)) // répétition du fichier loading-pic.txt
     console.clear() // Clear affichage
     console.log(chalk.green(allcheckOk)) // Affichage répétition du fichier all-check-ok.txt
-    console.log(chalk.green('\nVersions: PROG-CHECK-LOAD \n\t1.0 --- 04/07/2021 = CHECK by Imo999 : ALL IS GOOD')) //Suivit de versionning 
-    console.log(chalk.green('\t2.0 --- Coming Soon\n')) // Additionnal 
+    console.log(chalk.green('\nVersions: PROG-CHECK-LOAD \n\t0.0 --- 04/07/2021 = CHECK by Imo999 : ALL IS GOOD')) //Suivit de versionning 
+    console.log(chalk.green('\t1.0 --- Coming Soon\n')) // Additionnal 
     //console.log(chalk.green('\t2.0 --- xx/xx/xxxx = CHECK by xxxx : Additionnal\n')) // Additionnal 
 
     // =====================================================
